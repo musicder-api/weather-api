@@ -6,7 +6,7 @@ const express = require('express')
 var OAuth = require('oauth');
 var request = require('request');
 const app = express()
-const port = 8080
+const port = 5000
 
 // replace these with yahoo weather crediantials
 // you will get it from https://developer.yahoo.com/weather/ for free
@@ -156,5 +156,5 @@ app.get('/geolocation', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Listening on Port 8080')
+    console.log('Listening on Port 5000')
 })
